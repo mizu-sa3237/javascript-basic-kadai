@@ -1,4 +1,9 @@
-let bodyweight = "68kg"
-let height = "1.7m"
+let bodyweight;
+let height;
+let bmi;
 
-console.log("68"/"1.7"/"1.7")
+bodyweight = '68';
+height = '1.7';
+bmi = bodyweight/(height*height);
+
+console.log(bmi);
